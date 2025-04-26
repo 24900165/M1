@@ -32,11 +32,12 @@ int main() {
 }
 ```
 ## OUTPUT:
+```
 Enter first character: A
 Enter second character: B
 Enter third character: C
 Characters in reverse order: C B A
-
+```
 
 
 
@@ -92,11 +93,12 @@ int main() {
 }
 ```
 # OUTPUT:
+```
 Enter a number: 5
 A is a positive number.
 Enter a number: -3
 A is not a positive number.
-
+```
 
 
 
@@ -153,14 +155,13 @@ int main() {
 ```
 
 ## OUTPUT:
+```
 Enter numerator of first fraction: 3
 Enter denominator of first fraction: 4
 Enter numerator of second fraction: 5
 Enter denominator of second fraction: 8
 The minimum value between the two fractions is: 0.62
-
-
-
+```
 
 
 
@@ -204,11 +205,12 @@ int main() {
 }
 ```
 ## OUTPUT:
+```
 Enter a value: 1
 The input value is equal to 1.
 Enter a value: 5
 The input value is not equal to 1.
-
+```
 
 
 
@@ -279,13 +281,14 @@ int main() {
 ```
 
 ## OUTPUT:
+```
 Enter marks for subject 1: 70
 Enter marks for subject 2: 65
 Enter marks for subject 3: 60
 Total Marks = 195.00
 Percentage = 65.00%
 Division = First
-
+```
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
