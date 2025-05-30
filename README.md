@@ -12,29 +12,18 @@ Write a C program to read 3 characters one by one and print the characters in a 
 ## PROGRAM:
 ```
 #include <stdio.h>
-
-int main() {
-    // Declare variables for two fractions: a/b and c/d
-    float a, b, c, d, frac1, frac2, min;
-
-    printf("Enter numerator and denominator for first fraction (a/b): ");
-    scanf("%f %f", &a, &b);
-
-    printf("Enter numerator and denominator for second fraction (c/d): ");
-    scanf("%f %f", &c, &d);
-
-    frac1 = a / b;
-    frac2 = c / d;
-
-    min = (frac1 < frac2) ? frac1 : frac2;
-
-    printf("Minimum of %.2f/%.2f and %.2f/%.2f is %.2f\n", a, b, c, d, min);
-
-    return 0;
+int main() 
+{
+   char a,b,c;
+   scanf("%c%c%c",&a,&b,&c);
+   printf("The reverse of %c%c%c is %c%c%c",a,b,c,c,b,a);
+   return 0;
 }
 ```
+
 ## OUTPUT:
-![Screenshot 2025-05-30 104354](https://github.com/user-attachments/assets/c70e0512-e058-4e60-997e-9312049387d0)
+![Screenshot 2025-05-30 104531](https://github.com/user-attachments/assets/6bea523b-cd17-4769-87d6-5808bfb30aaf)
+
 
 
 
@@ -122,18 +111,31 @@ Write a program to find minimum between two fraction numbers using conditional o
 ## PROGRAM:
 ```
 #include <stdio.h>
-int main()
-{
-    int a,b,min;
-    scanf("%d%d",&a,&b);
-    min=(a<b)? a:b;
-    printf("Minimum between %d and %d is %d",a,b,min);
+
+int main() {
+    float a, b, c, d, frac1, frac2, min;
+
+    printf("Enter numerator and denominator for first fraction (a/b): ");
+    scanf("%f %f", &a, &b);
+
+    printf("Enter numerator and denominator for second fraction (c/d): ");
+    scanf("%f %f", &c, &d);
+
+    frac1 = a / b;
+    frac2 = c / d;
+
+    min = (frac1 < frac2) ? frac1 : frac2;
+
+    printf("Minimum of %.2f/%.2f and %.2f/%.2f is %.2f\n", a, b, c, d, min);
+
     return 0;
 }
+
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/de8f6a61-9e9c-45a7-8baf-17725e9ca00f)
+![Screenshot 2025-05-30 104354](https://github.com/user-attachments/assets/9dcc5296-cc09-4f04-9490-ce5e972abc83)
+
 
 
 
